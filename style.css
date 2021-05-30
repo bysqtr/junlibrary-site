@@ -92,7 +92,7 @@ body::before {
 }
 
 #fold1 #logomark { 
-	width: 72%; 
+	width: 80%; 
 	margin-left: auto; 
 	margin-right: auto;
 	display: block;
@@ -107,37 +107,72 @@ body::before {
 	-ms-user-select: none;
 }
 
+@media screen and (max-width: 800px) {
+	  #fold1 #logomark { 
+		  width: 90%; 
+	  }
+	}
+
 #fold1 .transmission { 
-	margin-bottom: 78px;
+	margin-bottom: 24px;
 }
 
 #fold2 .transmission { 
-	margin-top: 56px; 
-	margin-bottom: 56px;
+	margin-bottom: 96px;
 }
 
 #fold2 ul { 
-	display: table; 
-	margin: 0 auto; 
 	list-style-type: none;
 	margin-bottom: 56px;
 }
 
 #fold2 li { 
-	text-align: center; 
-	display: inline-block; 
-	padding-left: 42px; 
+	text-align: left; 
+	display: block; 
+	padding-left: 14%; 
+	padding-bottom: 8px;
 }
 
 #fold2 li a { 
-	font-size: 2.7em;
+	font-size: 9vw;
 	font-family: 'Londrina Solid', cursive;
-	font-weight: normal;
+	font-weight: bold;
+}
+
+#fold2 li img { 
+	position: absolute;
+}
+
+#fold2 li #icon-book { 
+	height: 12vw;
+	margin-top: -8px;
+	padding-left: 12px;
+}
+
+#fold2 li #icon-events { 
+	height: 8.4vw;
+	margin-top: 4px;
+	padding-left: 24px;
+}
+
+#fold2 li #icon-watch { 
+	height: 9vw;
+	margin-top: 0px;
+	padding-left: 18px;
+}
+
+#fold2 li #icon-learn { 
+	height: 9vw;
+	margin-top: 0px;
+	padding-left: 16px;
 }
 
 #fold2 li a:hover { 
 	color: white;
-	text-decoration: underline;
+}
+
+#fold2 li a:hover ~ .icon { 
+	filter: grayscale(100%)
 }
 
 #fold3 { 
