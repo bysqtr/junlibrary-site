@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+	box-sizing: border-box;
+}
+  
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+  
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, a {
+	margin: 0;
+	padding: 0;
+	font-family: 'Space Mono', monospace;
+	font-size: 16px;
+	font-weight: normal;
+}
+  
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a { 
+	text-decoration: none;
+}
+
+// more specific stuff here
+
+#sidebar { 
+	position: fixed;
+	width: 15%;
+	border-right-color: black; 
+	border-right-width: 2px; 
+	border-right-style: solid; 
+}
+
+#sidebar #current-page { 
+	font-weight: bold; 
+}
+
+#content { 
+	
+}
