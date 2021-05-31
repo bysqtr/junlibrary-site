@@ -1,19 +1,9 @@
-body::before { 
-	content: ""; 
-	position: absolute; 
-	top: 0px; 
-	right: 0px;
-	left: 0px; 
-	bottom: 0px; 
-	opacity: 0.25;
-}
-
 .fold { 
 	position: relative;
 	padding: 20px;
 }
 
-.fold h2 { 
+.fold h5 { 
 	font-size: 1.6em;
 	font-family: 'Chakra Petch', cursive;
 	font-weight: bold;
@@ -41,45 +31,7 @@ body::before {
 }
 
 .fold .transmission { 
-	width: 72%; 
-	padding-top: 30px; 
-	padding-bottom: 32px; 
-	padding-left: 42px; 
-	padding-right: 42px; 
-	position: relative;
-	
-	margin-left: auto; 
-	margin-right: auto; 
-	border-width: 2px; 
-	border-style: solid;
-	border-color: #FFFEE1;
-}
-
-.fold .transmission h2 { 
-	font-size: 1.3em;
-	letter-spacing: 0.08em;
-	font-weight: normal;
-	text-transform: none;
-}
-
-.fold .transmission #transmission-head1 { 
-	position: absolute;
-	width: 23px; 
-	height: 23px;
-	top: -23px;
-}
-
-.fold .transmission #transmission-head2 { 
-	position: absolute;
-	width: 23px; 
-	height: 23px;
-	top: -23px;
-	right: 48px;
-}
-
-.fold .transmission #transmission-lastline { 
-	padding-top: 12px;
-	display: inline-block;
+	width: 72%;
 }
 
 #fold1 { 

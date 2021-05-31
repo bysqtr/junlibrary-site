@@ -1,0 +1,28 @@
+.transmission {
+	margin-bottom: 32px;
+}
+
+.transmission h2 a { 
+	display: block;
+	padding-bottom: 8px;
+	font-family: 'Londrina Solid', cursive;
+	font-size: 1.4em;
+	text-decoration: none;
+}
+
+.transmission h2 a i { 
+	display: block;
+	padding-bottom: 8px;
+	font-family: 'Chakra Petch', cursive;
+	font-weight: normal;
+	letter-spacing: 0.24em;
+	font-size: 0.56em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-style: normal;
+	opacity: 0.56;
+}
+
+.transmission h2 a:hover {
+	text-decoration: underline;
+}
