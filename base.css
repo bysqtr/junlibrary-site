@@ -31,20 +31,6 @@ body {
 	background-color: #202332;
 }
 
-// more specific stuff here
-
-#sidebar { 
-	position: fixed;
-	width: 15%;
-	border-right-color: black; 
-	border-right-width: 2px; 
-	border-right-style: solid; 
-}
-
-#sidebar #current-page { 
-	font-weight: bold; 
-}
-
-#content { 
-	
+ul { 
+	list-style-type: none;
 }

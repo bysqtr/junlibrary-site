@@ -1,0 +1,49 @@
+#sidebar { 
+	position: fixed;
+	top: 0;
+	bottom: 0; 
+	left: 0;
+	width: 24%;
+	padding: 24px;
+}
+
+#sidebar a:hover > img { 
+	filter: grayscale(100%)
+}
+
+#sidebar #logomark { 
+	padding-top: 12px; 
+}
+
+#sidebar #divider { 
+	width: 64%;
+	margin-left: auto; 
+	margin-right: auto;
+	margin-top: 32px;
+	margin-bottom: 48px;
+	
+	height: 1px;
+	background-color: #FFFEE1;
+	opacity: 0.48;
+}
+
+#sidebar #icon { 
+	display: block;
+	width: 48%;
+	margin-left: auto; 
+	margin-right: auto;
+	padding-bottom: 14px;
+}
+
+#sidebar h2 { 
+	font-size: 1.6em;
+	font-family: 'Londrina Solid', cursive;
+	font-weight: bold;
+	text-align: center;
+}
+
+#content { 
+	margin-left: 24%; 
+	padding: 48px;
+	padding-left: 24px;
+}
