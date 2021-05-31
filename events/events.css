@@ -2,13 +2,48 @@
 	
 }
 
-#calendar h2 { 
-	font-size: 1.7em;
+#calendar .month { 
+	padding-bottom: 72px;
+}
+
+#calendar .month h2 { 
+	font-family: 'Chakra Petch', cursive;
+	font-size: 1.4em;
 	font-weight: bold;
-	text-align: left;
+	letter-spacing: 0.24em;
+	text-transform: uppercase; 
+	
+	padding-bottom: 18px;
+	opacity: 0.64;
+}
+
+#calendar .month h3 { 
+	font-family: 'Londrina Solid', cursive;
+	font-size: 2em;
+	font-weight: normal;
+	letter-spacing: 0.08em;	
 	padding-bottom: 12px;
 }
 
-#calendar .month { 
+#calendar .month h3 i { 
+	display: block;
+	padding-top: 8px;
+	font-family: 'Chakra Petch', cursive;
+	font-weight: normal;
+	letter-spacing: 0.24em;
+	font-size: 0.48em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-style: normal;
+	opacity: 0.56;
+}
+
+#calendar .month img { 
 	padding-bottom: 32px;
+	width: 100%; 
+	max-width: 611px;
+}
+
+.transmission h2 {
+	text-transform: none;
 }
